@@ -19,15 +19,13 @@ class Prueba extends Model
         'fechaNacimiento',
         'fechaInicio'
         
+        
 ];
 
-
-// public static function metodo(){
-//     $consulta='SELECT * FROM Vista'; 
-//     $ejecucion = DB::select($consulta);
-//        return $ejecucion;
-
-// }
-    
-    
+public static function metodo(){
+    $consulta='SELECT * FROM Vista ORDER BY OrdenarPorCampo, DEPARTAMENTO';
+    $ejecucion = DB::select($consulta);
+       return $ejecucion;
+}
+ 
 }

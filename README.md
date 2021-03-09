@@ -4,5 +4,9 @@
 
  - Representacion de la consulta CTE en el framework laravel.
  - se utiliza un jstree para representacion del arbol.
+ -
+ 
+ Utilizar la bd en transactsql que esta dentro de otro repositorio y establecer los plugins necesarios para conectar alguna pila mamp con sqlserver
+ ```
 
 
